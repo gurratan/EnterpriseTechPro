@@ -1,3 +1,3 @@
-def readCollection(self):
-    for x in self.find():
+def readCollection(collection):
+    for x in collection.find():
         print(x)
