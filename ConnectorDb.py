@@ -37,7 +37,7 @@ while x != 5:
 
         x = collection.insert_one(mystudent)
         print(x)
-        print("Record entered successfully ")
+        print("Record entered successfully  user can check the record by pressing 3 ")
     elif x == 2:
         sid = input("Enter the student ID whose information you want to update")
         attribute = input("Please enter what you want to update. we can update - FirstName , LastName , GPA, Course")
