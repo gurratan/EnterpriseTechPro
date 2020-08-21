@@ -6,7 +6,7 @@ def updateRecord(collection):
     newvalues = {"$set": {attribute: value}}
 
     collection.update_one(myquery, newvalues)
-    print("Record updated successfully .. !!")
+    print("Record updated successfully ..!!")
     # print "students" after the update:
     for x in collection.find():
         print(x)
