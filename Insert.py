@@ -17,4 +17,4 @@ def insertRecord(collection):
 
     x = collection.insert_one(mystudent)
     print(x)
-    print("Record entered successfully  user can check the record by pressing 3 ")
+    print("Record entered successfully .. !!")
